@@ -18,7 +18,6 @@ knex('famous_people').insert({
 })
 .asCallback(function(err, rows) {
   if(err) return console.error(err);
-  console.log(rows);
 });
 
 //Select as callback
